@@ -1,0 +1,59 @@
+body {
+    font-family: "Playfair Display", serif;
+    background-color: #ffb6c1;
+    margin: 0;
+    }
+
+.banner {
+    background-size: auto;
+    width: 1300px;
+    height: 700px;
+    position: absolute;
+    left: 4em;
+    top: 20px;
+    z-index: -2;
+    filter: blur(3px);
+    
+    
+}
+.mid {
+    text-align: center;
+    position: absolute;
+    bottom: 190px;
+    left: 240px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    border: 7px solid black;
+    padding: 15px;
+}
+h1 {
+    font-size: 90px;
+    
+}
+p {
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color:#6495ED;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 3px;
+    top: -71px;
+    position: relative;
+    
+    
+}
+a:hover {
+    text-decoration: underline rgb(0, 0, 0); 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.weng {
+    background-color: transparent;
+    position: relative;
+    top: 590px;
+    left: 700px;
+    margin: auto;
+    padding:unset;
+}
